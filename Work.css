@@ -1,0 +1,17 @@
+@media(max-width: 640px){
+    #section-one header .navbar-container .menu-list-container .menu-list .menu-list-item > a{
+        display: none;
+    }
+}
+
+@media(max-width: 640px){
+    #section-one header .navbar-container .menu-list-container .menu-list .hamburger-menu{
+        display: block;
+    }
+}
+
+#section-four .section-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
